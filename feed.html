@@ -1,0 +1,46 @@
+<html>
+<head>
+<style>
+.a
+{
+border-radius:20px;
+}
+</style>
+</head>
+<body style="background-image:linear-gradient(-45deg,red,aqua)">
+<div style="font-size:20px">
+<a href="log.html">HOME</a></div>
+<h1 align="center">Feedback</h1>
+<form action="log.html">
+<table align="center">
+<tr>
+<td>Name:
+<input type="text" class="a"></td>
+</tr>
+<tr>
+<td>Email:
+<input type="email" class="a"></td>
+</tr>
+<tr>
+<td>Phone:
+<input class="a" type="text" maxlength="10"></td>
+</tr>
+<tr>
+<td>Write here feedback:</td>
+<td>
+<textarea cols="20" rows="6"></textarea>
+</td>
+</tr>
+<tr>
+<td>
+<button onclick="Fun()">Submit</button></td>
+</tr>
+</table>
+</form>
+<script>
+function Fun(){
+alert("Data Saved Successfully");
+}
+</script>
+</body>
+</html>
